@@ -1,0 +1,36 @@
+@media screen and (max-width:1068px) {
+    .list{
+        display: none;
+    }
+    .header-bottom{
+        display: flex;
+        
+       align-items: center;
+        justify-items: center;
+        color: #fff;
+    
+    }
+    .h-b-text h1{
+        padding-top: 5%;
+        font-size: 30px;
+        
+     }
+     .h-b-text p{
+        text-align: center;
+         font-size: 15px;
+        
+     }
+     .header-bottom img{
+        width: 300px;
+        height: 250px;
+    }
+
+    #spec {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px; 
+        align-items: center;   
+    
+    }
+
+}
